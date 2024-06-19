@@ -21,7 +21,15 @@ public class Exception {
 
         while (!exit) {
 
-            System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~\n Choose any of the below to carry out that type of Exception : \n" + "1. File Not Found \n2.Array Index Out Of Bound \n3.Arithmetic Exception (Method Call) \n4. Illegal Access Exception \n5. Record Demo (Different from above)  \n6. To Exit the Program ");
+            System.out.println("""
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     Choose any of the below to carry out that type of Exception :\s
+                    1. File Not Found\s
+                    2. Array Index Out Of Bound\s
+                    3. Arithmetic Exception (Method Call)\s
+                    4. Illegal Access Exception\s
+                    5. Record Demo (Different from above) \s
+                    6. To Exit the Program\s""");
             System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~\n Enter The input : ");
             input = sc.nextInt();
 
